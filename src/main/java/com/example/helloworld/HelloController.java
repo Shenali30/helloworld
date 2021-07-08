@@ -11,4 +11,9 @@ public class HelloController {
         //sample end point
         return "Hello World";
     }
+
+    @GetMapping("/name")
+    public String getName(){
+        return "Anderson";
+    }
 }
